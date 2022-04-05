@@ -1,0 +1,33 @@
+.title{
+  margin: 0;
+}
+.stat-list{
+  list-style-type: none;
+  display: flex;
+  border-top:1px solid rgba(128, 128, 128, 0.485);
+  padding: 0;
+}
+.item{
+  text-align: center;
+  width:calc( ( 100% - 20px ) / 3 );
+  padding: 30px 0;
+  color:white;
+  box-shadow: 1px 0px 1px rgba(0, 0, 0, 0.457);
+}
+ li{
+  border-left:1px solid rgba(128, 128, 128, 0.32);
+ 
+}
+li:first-child{
+  border: none;
+}
+.item .label{
+  display: block;
+  color:white;
+  font-size: 14px;
+}
+
+.percentage{
+  font-size: 20px;
+  font-weight: bold;
+}

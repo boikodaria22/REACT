@@ -1,0 +1,30 @@
+.friend-list .item{
+  width: 80%;
+  display: flex;
+  margin:0 auto;
+  color:#000;
+  position: relative;
+}
+.friend-list .avatar{
+  width: 150px;
+  height: 150px; 
+  border-radius:10px ;
+}
+.friend-list li:first-child{
+  border-left:1px solid rgba(128, 128, 128, 0.375) ;
+}
+
+.friend-list .status{
+  width: 25px;
+  height: 25px;
+  border-radius:50%;
+  position: absolute;
+  top:73%;
+  left: 18%;
+}
+.online{
+  background-color: green;
+}
+.offline{
+  background-color: red;
+}
