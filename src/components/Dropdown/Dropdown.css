@@ -1,0 +1,20 @@
+.Dropdown{
+  width: 400px;
+  position: relative;
+  padding: 20px;
+}
+.Dropdown__menu{
+  background-color: rgba(142, 127, 255, 0.788);
+  color:white;
+  position: absolute;
+  top:80%;
+  left:0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+.Dropdown__toggle{
+  background-color: rgb(49, 102, 155);
+  color: white;
+  padding: 20px;
+}
